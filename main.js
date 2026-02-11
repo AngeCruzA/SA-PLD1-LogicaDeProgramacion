@@ -1,5 +1,5 @@
 
-
+/*
 function orden (arreglo){
     
     const mayoramenor = [...arreglo]; 
@@ -32,5 +32,28 @@ if(num1 == num2 && num2 == num3) {
 
     console.log (ordenado.reverse());
 }
+*/
+ 
 
+//Solución alternativa
+let mayor = 0;
+let menor = 0;
+let medio = 0;
+        
+for (let i = 0; i < 3; i++){
+    let numero = parseInt(prompt ("Ingresa número: "));
 
+    if (numero > mayor){ 
+        medio = mayor;
+        mayor = numero;
+    } else if (numero < menor) {
+        medio = menor;
+        menor = numero;
+    } else {
+    medio = numero;
+    }
+}
+        
+const ordenado = [mayor, medio, menor]
+console.log (ordenado); 
+console.log (ordenado.reverse()); 
