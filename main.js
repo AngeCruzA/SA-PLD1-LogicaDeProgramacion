@@ -1,5 +1,4 @@
 
-/*
 function orden (arreglo){
     
     const mayoramenor = [...arreglo]; 
@@ -32,9 +31,8 @@ if(num1 == num2 && num2 == num3) {
 
     console.log (ordenado.reverse());
 }
-*/
  
-
+/*
 //Solución alternativa
 let mayor = 0;
 let menor = 0;
@@ -57,3 +55,4 @@ for (let i = 0; i < 3; i++){
 const ordenado = [mayor, medio, menor]
 console.log (ordenado); 
 console.log (ordenado.reverse()); 
+*/
